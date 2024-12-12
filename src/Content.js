@@ -1,21 +1,21 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import javascript from "./assets/images/Skills/javascript.png";
+import nextjs from "./assets/images/Skills/nextjs.png";
+import express from "./assets/images/Skills/express.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import typescript from "./assets/images/Skills/typescript.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
+import project1 from "./assets/images/Projects/img1.png";
+import project2 from "./assets/images/Projects/img2.png";
+import project3 from "./assets/images/Projects/img3.png";
+import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -59,94 +59,94 @@ export const content = {
   ],
   hero: {
     title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    firstName: "M.",
+    LastName: "AHMED",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
+        count: "1+",
         text: "Years of Experinse in Web development",
       },
       {
-        count: "20+",
+        count: "10+",
         text: "Projects Worked in my career",
       },
     ],
   },
   skills: {
-    title: "Skills",
-    subtitle: "MY TOP SKILLS",
-    skills_content: [
-      {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
-      },
-      {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },
-      {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
-      },
-      {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
-        logo: reactjs,
-      },
-      {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
-      },
-      {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
-      },
-    ],
-    icon: MdArrowForward,
-  },
+  title: "Skills",
+  subtitle: "MY TOP SKILLS",
+  skills_content: [
+    {
+      name: "Javascript",
+      para: "Build Dynamic Web Apps",
+      logo: javascript,
+    },
+    {
+      name: "Node js",
+      para: "Create Server Side Apps",
+      logo: nodejs,
+    },
+    {
+      name: "Express js",
+      para: "Build Fast Web Apps",
+      logo: express,
+    },
+    {
+      name: "React js",
+      para: "Create User Interfaces",
+      logo: reactjs,
+    },
+    {
+      name: "Next js",
+      para: "Build Server Side Apps",
+      logo: nextjs,
+    },
+    {
+      name: "Typescript",
+      para: "Write Type Safe Code",
+      logo: typescript,
+    },
+  ],
+  icon: MdArrowForward,
+},
   services: {
-    title: "Services",
-    subtitle: "WHAT I OFFER",
-    service_content: [
-      {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo1,
-      },
-      {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
-      },
-      {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
-      },
-    ],
-  },
+  title: "Services",
+  subtitle: "WHAT I OFFER",
+  service_content: [
+    {
+      title: "Web Development",
+      para: "I offer web development services to help businesses establish a strong online presence.",
+      logo: services_logo1,
+    },
+    {
+      title: "ui / ux DESIGNING",
+      para: "My ui/ux designing services focus on creating user-centered and visually appealing interfaces.",
+      logo: services_logo2,
+    },
+    {
+      title: "Wordpress Development",
+      para: "I provide wordpress development services to help businesses build custom and scalable websites.",
+      logo: services_logo3,
+    },
+  ],
+},
   Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Ecklee Market",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "Ahmed Homeo Clinic",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "Urban Emporium",
         image: project3,
       },
     ],
@@ -211,6 +211,76 @@ export const content = {
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "Copyright © 2024. All Rights Reserved.",
   },
+
 };
+
+export const languages = [
+  {
+    name: "Javascript",
+    description: "JavaScript is a versatile programming language primarily used for web development.",
+    content: [
+      "JavaScript allows you to create interactive web pages.",
+      "It is an essential part of web applications.",
+      "JavaScript can be used on both the client-side and server-side.",
+      "It supports event-driven, functional, and imperative programming styles.",
+      "JavaScript has a rich ecosystem of libraries and frameworks."
+    ]
+  },
+  {
+    name: "Typescript",
+    description: "TypeScript is a superset of JavaScript that adds static typing.",
+    content: [
+      "TypeScript helps catch errors at compile time.",
+      "It improves code readability and maintainability.",
+      "TypeScript is widely used in large-scale applications.",
+      "It supports modern JavaScript features.",
+      "TypeScript can be transpiled to JavaScript for compatibility."
+    ]
+  },
+  {
+    name: "React js",
+    description: "ReactJS is a JavaScript library for building user interfaces.",
+    content: [
+      "React allows for the creation of reusable UI components.",
+      "It uses a virtual DOM for efficient rendering.",
+      "React can be used for single-page applications.",
+      "It is maintained by Facebook and a community of developers.",
+      "React has a rich ecosystem of tools and libraries."
+    ]
+  },
+  {
+    name: "Node js",
+    description: "Node.js is a JavaScript runtime built on Chrome's V8 engine.",
+    content: [
+      "Node.js allows for server-side JavaScript execution.",
+      "It is designed for building scalable network applications.",
+      "Node.js uses an event-driven, non-blocking I/O model.",
+      "It has a vast package ecosystem via npm.",
+      "Node.js is suitable for real-time applications."
+    ]
+  },
+  {
+    name: "Express js",
+    description: "Express.js is a web application framework for Node.js.",
+    content: [
+      "Express simplifies the process of building web applications.",
+      "It provides robust routing and middleware support.",
+      "Express is minimal and flexible.",
+      "It is widely used for RESTful APIs.",
+      "Express can be easily integrated with various templating engines."
+    ]
+  },
+  {
+    name: "Next js",
+    description: "Next.js is a React framework for server-rendered applications.",
+    content: [
+      "Next.js supports server-side rendering and static site generation.",
+      "It provides automatic code splitting for faster page loads.",
+      "Next.js has built-in routing based on the file system.",
+      "It supports API routes for backend functionality.",
+      "Next.js is optimized for performance and SEO."
+    ]
+  }
+];

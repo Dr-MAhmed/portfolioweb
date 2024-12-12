@@ -2,6 +2,10 @@ import { content } from "../Content";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import project1 from "../assets/images/Projects/img1.png";
+import project2 from "../assets/images/Projects/img2.png";
+import project3 from "../assets/images/Projects/img3.png";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -10,6 +14,17 @@ import { Pagination } from "swiper";
 
 const Projects = () => {
   const { Projects } = content;
+
+  const handleProjectClick = (projectTitle) => {
+    if (projectTitle === "Ecklee Market") {
+      window.location.href = "https://ecklee.web.app";
+    } else if (projectTitle === "Urban Emporium") {
+      window.location.href = "https://urbanemporium.vercel.app/";
+    } else if (projectTitle === "Ahmed Homeo Clinic") {
+      window.location.href = "https://ahmedhc.vercel.app";
+    }
+  };
+
   return (
     <section className="bg-bg_light_primary" id="projects">
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
@@ -46,8 +61,12 @@ const Projects = () => {
                 <img src={content.image} alt="..." />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
-                    READ MORE
+                  <button
+                    className="font-bold text-gray self-end"
+                    target="_blank"
+                    onClick={() => handleProjectClick(content.title)} // Use content.title here
+                  >
+                    HAVE A LOOK
                   </button>
                 </div>
               </SwiperSlide>
