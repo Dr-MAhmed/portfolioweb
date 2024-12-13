@@ -15,15 +15,15 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 import project1 from "./assets/images/Projects/img1.png";
 import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
-import person_project from "./assets/images/Projects/person.png";
+import person_project from "./assets/images/Hero/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+import Hireme_person from "./assets/images/Hero/person.png";
+import Hireme_person2 from "./assets/images/Hero/person.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -33,6 +33,7 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
 
 export const content = {
   nav: [
@@ -186,7 +187,7 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "Highly skilled in developing scalable and efficient web applications using JavaScript, React, Node.js, Express, and Next.js. Proficient in creating user-centered and visually appealing interfaces with a strong understanding of UI/UX principles.",
     btnText: "Hire Me",
   },
   Contact: {
@@ -194,19 +195,24 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "ahmedsohail7751@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:ahmedsohail7751@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+92 313 7751 829",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/923137751829",
       },
       {
-        text: "codeaprogram",
+        text: "instagram/mr._.hunny",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/mr._.hunny/",
+      },
+      {
+        text: "github/Dr-MAhmed",
+        icon: FaGithub,
+        link: "https://www.github.com/Dr-MAhmed",
       },
     ],
   },
