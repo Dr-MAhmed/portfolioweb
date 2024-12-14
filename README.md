@@ -20,7 +20,7 @@ npm run dev
 + and more....
 
 ## live preview link
-[See Now](https://codeaprogram-portfolio.web.app/)
+[See Now](https://ahmedportfolio-swart.vercel.app/)
 
 ## Startup repository link
 [Repository](https://github.com/Sridhar-C-25/React_portfolio_2_startup)
